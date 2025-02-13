@@ -9,6 +9,7 @@ function Header() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   const menuItems = [
+    { name: 'Home', path: '/home' },
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Projects', path: '/projects' },
